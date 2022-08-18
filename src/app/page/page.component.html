@@ -1,0 +1,6 @@
+<div *ngFor="let component of pageData; let i = index;">
+  <app-navigation [type]="component.subType" *ngIf="component.type === 'navigation'"></app-navigation>
+  <app-contact-us [type]="component.subType" *ngIf="component.type === 'contact-us'"></app-contact-us>
+  <app-cta [type]="component.subType" *ngIf="component.type === 'call-to-action'"></app-cta>
+  <app-content [type]="component.subType" *ngIf="component.type === 'content'"></app-content>
+</div>

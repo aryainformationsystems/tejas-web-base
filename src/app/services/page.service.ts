@@ -28,6 +28,36 @@ export class PageService {
         type: 'contact-us',
         subType: 6,
         page
+      },
+      {
+        type: 'features',
+        subType: 6,
+        page
+      },
+      {
+        type: 'form',
+        subType: 3,
+        page
+      },
+      {
+        type: 'pricings',
+        subType: 3,
+        page
+      },
+      {
+        type: 'testimonials',
+        subType: 3,
+        page
+      },
+      {
+        type: 'team',
+        subType: 1,
+        page
+      },
+      {
+        type: 'footer',
+        subType: 10,
+        page
       }
     ]
   }
